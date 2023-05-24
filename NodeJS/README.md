@@ -17,4 +17,9 @@ npm install dotenv --save
 npm install iconv-lite
 ```
 # Setting before deploy
-1.Change destinationFolder in .env 
+1.Create file .env from .envExample and iput infor below 
+```shell
+MY_USER_EMAIL=email
+MY_PASSWORD="password"
+DestinationFolder="./store"
+```
