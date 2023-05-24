@@ -1,4 +1,4 @@
-#Install
+# Install
 1.Puppeteer
 ```shell
 npm install --ignore-scripts puppeteer
@@ -11,5 +11,5 @@ npm install dotenv --save
 ```shell
 npm install iconv-lite
 ```
-#Setting before deploy
+# Setting before deploy
 1.Change destinationFolder in .env 
