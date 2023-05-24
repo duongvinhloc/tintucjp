@@ -1,13 +1,18 @@
 # Install
-1.Puppeteer
+Move to main folder and run scripts below
+1. npm
+```shell
+npm init 
+```
+3.Puppeteer
 ```shell
 npm install --ignore-scripts puppeteer
 ```
-2.dotenv
+3.dotenv
 ```shell
 npm install dotenv --save
 ```
-3.incov-lite
+4.incov-lite
 ```shell
 npm install iconv-lite
 ```
