@@ -1,0 +1,3 @@
+MY_USER_EMAIL=email
+MY_PASSWORD="password"
+DestinationFolder="./store"
