@@ -28,7 +28,6 @@ const outputEncoding = 'UTF-8';
 
 
 async function copyAndchangeFile() {
-  deleteFile();
   fs.copyFile(sourceFilePath, destinationFilePath, (err) => {
     if (err) {
       console.error(err);
