@@ -1,9 +1,10 @@
 const puppeteer = require('puppeteer');
+//const puppeteer = require('puppeteer-core');
 const path = require("path");
 require('dotenv').config();
 
-var USER_EMAIL = process.env.MY_USER_EMAIL;
-var PASSWORD = process.env.MY_PASSWORD;
+//var USER_EMAIL = process.env.MY_USER_EMAIL;
+//var PASSWORD = process.env.MY_PASSWORD;
 
 const pc = {
     'name': 'Chrome Mac',
@@ -22,18 +23,20 @@ async function downloadCSV () {
     const browser = await puppeteer.launch({
         headless: true,
         slowMo: 100,
+        //executablePath: '/usr/bin/chromium-browser', 
+        //args: ['--no-sandbox'] 
     });
     try {
         const page = await browser.newPage();
-        await page.emulate(pc);
+        //await page.emulate(pc);
 
         // ページ開いて表示されるまで待機
         await page.goto('https://www.nyusatsu-king.com/user/login/')
         await page.waitForSelector('#USER_EMAIL');
 
         // ユーザ名、パスワード入力
-        await page.type('input[name="USER_EMAIL"]', USER_EMAIL);
-        await page.type('input[name="USER_PASSWORD"]', PASSWORD);
+        await page.type('input[name="USER_EMAIL"]', "nyusatsu_site@detomo.co.jp");
+        await page.type('input[name="USER_PASSWORD"]', "Nyu#0413P@s");
 
         // ログイン
         await page.evaluate(() => {
@@ -132,7 +135,7 @@ async function downloadCSV () {
 
         //検索ボタンをクリック
         await page.evaluate(() => {
-            document.querySelector('a[id="btn_form_submit"]').click({ clickCount: 1, delay: 10000 });
+            document.querySelector('a[id="btn_form_submit"]').click({ clickCount: 1, delay: 1000 });
         });
         await page.waitForSelector("#export_csv");
 
