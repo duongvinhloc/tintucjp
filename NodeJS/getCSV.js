@@ -36,7 +36,7 @@ async function downloadCSV () {
 
         // ユーザ名、パスワード入力
         await page.type('input[name="USER_EMAIL"]', "nyusatsu_site@detomo.co.jp");
-        await page.type('input[name="USER_PASSWORD"]', "Nyu#0413P@s");
+        await page.type('input[name="USER_PASSWORD"]', "*********");
 
         // ログイン
         await page.evaluate(() => {
