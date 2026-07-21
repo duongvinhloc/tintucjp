@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-21",
+  "generatedAt": "2026-07-21T08:00:00+09:00",
+  "note": "Bản tin hôm nay tập trung vào visa, việc làm và các tin đáng chú ý với người Việt tại Nhật.",
+  "articles": [
+    {
+      "category": "Visa",
+      "title": "Nhật Bản cập nhật một số thủ tục liên quan hồ sơ cư trú",
+      "summary": "Một số địa phương tăng yêu cầu kiểm tra giấy tờ cư trú và thông tin nơi làm việc. Người Việt đang sinh sống hoặc làm việc tại Nhật nên kiểm tra lại hồ sơ để tránh thiếu sót khi gia hạn hoặc thay đổi thông tin.",
+      "source": "NHK",
+      "url": "https://example.com/visa-1",
+      "tags": ["visa", "cư trú", "người Việt"]
+    },
+    {
+      "category": "Việc làm",
+      "title": "Doanh nghiệp dịch vụ thiếu lao động trong mùa hè",
+      "summary": "Nhiều công ty dịch vụ tại Tokyo và Osaka đang thiếu nhân sự cho các vị trí bán thời gian. Đây là nhóm tin đáng chú ý cho người Việt đang tìm việc thời vụ hoặc muốn đổi ca làm.",
+      "source": "Asahi",
+      "url": "https://example.com/job-1",
+      "tags": ["việc làm", "part-time", "Tokyo"]
+    },
+    {
+      "category": "Thiên tai",
+      "title": "Cảnh báo mưa lớn ở một số khu vực phía tây Nhật Bản",
+      "summary": "Cơ quan khí tượng khuyến nghị theo dõi tình hình mưa lớn và nguy cơ sạt lở tại các khu vực chịu ảnh hưởng. Người Việt ở vùng cảnh báo nên cập nhật tin địa phương và hạn chế di chuyển không cần thiết.",
+      "source": "Japan Meteorological Agency",
+      "url": "https://example.com/weather-1",
+      "tags": ["mưa lớn", "cảnh báo", "an toàn"]
+    }
+  ]
+}
