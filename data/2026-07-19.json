@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-19",
+  "generatedAt": "2026-07-22T08:00:00+09:00",
+  "note": "Bản tin hôm nay tập trung vào chi phí sinh hoạt, giao thông và giáo dục tại Nhật.",
+  "articles": [
+    {
+      "category": "Chi phí sinh hoạt",
+      "title": "Giá thực phẩm tiếp tục tăng tại nhiều chuỗi siêu thị",
+      "summary": "Một số mặt hàng thiết yếu như gạo, dầu ăn và thực phẩm chế biến ghi nhận mức tăng giá trong tháng này. Người tiêu dùng nên theo dõi các chương trình giảm giá để tiết kiệm chi phí.",
+      "source": "NHK",
+      "url": "https://example.com/life-1",
+      "tags": ["giá cả", "siêu thị", "chi phí"]
+    },
+    {
+      "category": "Giao thông",
+      "title": "JR khuyến cáo hành khách kiểm tra lịch tàu do thời tiết",
+      "summary": "Một số tuyến đường sắt có thể bị chậm hoặc tạm dừng khi thời tiết xấu. Hành khách nên kiểm tra thông tin trước khi khởi hành để chủ động kế hoạch di chuyển.",
+      "source": "JR East",
+      "url": "https://example.com/train-1",
+      "tags": ["JR", "tàu điện", "giao thông"]
+    },
+    {
+      "category": "Giáo dục",
+      "title": "Nhiều địa phương tổ chức chương trình hỗ trợ học sinh trong kỳ nghỉ hè",
+      "summary": "Các thư viện và trung tâm cộng đồng mở thêm lớp học miễn phí, hỗ trợ làm bài tập và các hoạt động trải nghiệm dành cho học sinh tiểu học và trung học cơ sở.",
+      "source": "Mainichi",
+      "url": "https://example.com/education-1",
+      "tags": ["giáo dục", "nghỉ hè", "học sinh"]
+    }
+  ]
+}
