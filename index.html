@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tin Nhật hôm nay cho người Việt</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">🇯🇵 Tin Nhật hôm nay cho người Việt</p>
+      <h1>Đọc nhanh trong 2 phút</h1>
+      <p class="subcopy">Bản tin được AI cập nhật tự động mỗi ngày.</p>
+    </div>
+    <div class="topbar__meta">
+      <div class="pill" id="lastUpdate">Đang tải dữ liệu...</div>
+      <div class="pill pill--accent" id="articleCount">0 tin</div>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="panel controls">
+      <div class="controls__row">
+        <button class="btn btn--ghost" id="prevDay">← Ngày trước</button>
+        <select id="dateSelect" class="select"></select>
+        <button class="btn btn--ghost" id="nextDay">Ngày sau →</button>
+      </div>
+
+      <div class="controls__row controls__row--wrap">
+        <input id="searchInput" class="search" type="search" placeholder="Tìm theo từ khóa..." />
+        <div id="categoryChips" class="chips"></div>
+      </div>
+    </section>
+
+    <section class="panel hero">
+      <div>
+        <p class="section-label">Hôm nay</p>
+        <h2 id="dayTitle">—</h2>
+        <p id="daySubtitle" class="muted">Chọn một ngày để xem tin.</p>
+      </div>
+      <div class="hero__stats">
+        <div>
+          <span class="stat-number" id="statTop">0</span>
+          <span class="stat-label">tin nổi bật</span>
+        </div>
+        <div>
+          <span class="stat-number" id="statCategories">0</span>
+          <span class="stat-label">chuyên mục</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="section-head">
+        <h3>Tin trong ngày</h3>
+        <p id="resultInfo" class="muted"></p>
+      </div>
+      <div id="newsList" class="news-list"></div>
+      <div id="emptyState" class="empty-state hidden">
+        Không có tin nào khớp bộ lọc hiện tại.
+      </div>
+    </section>
+  </main>
+
+  <template id="newsCardTemplate">
+    <article class="card">
+      <div class="card__header">
+        <span class="badge"></span>
+        <span class="source"></span>
+      </div>
+      <h4 class="title"></h4>
+      <p class="summary"></p>
+      <div class="tags"></div>
+      <div class="card__footer">
+        <a class="readmore" target="_blank" rel="noopener noreferrer">Xem bài gốc</a>
+      </div>
+    </article>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>
