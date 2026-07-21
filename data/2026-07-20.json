@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-20",
+  "generatedAt": "2026-07-23T08:00:00+09:00",
+  "note": "Bản tin hôm nay tập trung vào việc làm, y tế và phòng chống thiên tai dành cho người Việt tại Nhật.",
+  "articles": [
+    {
+      "category": "Việc làm",
+      "title": "Nhu cầu tuyển dụng nhân viên kho vận tăng trước mùa mua sắm",
+      "summary": "Các trung tâm logistics và công ty giao hàng đang mở rộng tuyển dụng lao động bán thời gian và toàn thời gian tại nhiều tỉnh thành, tạo thêm cơ hội việc làm cho lao động nước ngoài.",
+      "source": "Nikkei",
+      "url": "https://example.com/job-2",
+      "tags": ["tuyển dụng", "logistics", "việc làm"]
+    },
+    {
+      "category": "Y tế",
+      "title": "Khuyến cáo phòng chống sốc nhiệt trong đợt nắng nóng",
+      "summary": "Cơ quan y tế khuyến nghị người dân bổ sung nước đầy đủ, hạn chế hoạt động ngoài trời vào buổi trưa và sử dụng điều hòa hợp lý để giảm nguy cơ sốc nhiệt.",
+      "source": "Ministry of Health",
+      "url": "https://example.com/health-1",
+      "tags": ["nắng nóng", "sức khỏe", "sốc nhiệt"]
+    },
+    {
+      "category": "Thiên tai",
+      "title": "Chính quyền địa phương rà soát kế hoạch sơ tán mùa mưa bão",
+      "summary": "Nhiều địa phương cập nhật bản đồ nguy cơ ngập lụt và hướng dẫn người dân kiểm tra địa điểm sơ tán gần nơi sinh sống nhằm tăng cường khả năng ứng phó khi có thiên tai.",
+      "source": "Cabinet Office Japan",
+      "url": "https://example.com/disaster-1",
+      "tags": ["thiên tai", "sơ tán", "an toàn"]
+    }
+  ]
+}
